@@ -1,0 +1,2 @@
+class Nissan < Dealer
+end
