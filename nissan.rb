@@ -1,2 +1,2 @@
-class Nissan < Dealer
+class Nissan < Car
 end

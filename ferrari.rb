@@ -1,11 +1,11 @@
-class Ferrari < Dealer
+class Ferrari < Car
   def lift_up
-    self.car_height += 40
-    self.speed *= 0.8
+    @car_height += 40
+    @speed *= 0.8
   end
 
   def lift_down
-    self.car_height -= 40
-    self.speed /= 0.8
+    @car_height -= 40
+    @speed /= 0.8
   end
 end
